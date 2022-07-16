@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="list_error">The page could not load. Please try again</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="name_first_table_item">intro</string>
+    <string name="name_second_table_item">stats</string>
+    <string name="name_third_table_item">evolution</string>
+    <string name="added_to_favorites">added to favorites</string>
+    <string name="removed_from_favorites">removed to favorites</string>
+    <string name="pokemon_icon">Pokemon icon</string>
+    <string name="back_stack">Back Stack</string>
+    <string name="type_pokemon">Type</string>
+    <string name="category_pokemon">Category</string>
+    <string name="image_pokemon">Image pokemon</string>
+    <string name="height_pokemon">Height</string>
+    <string name="weight_pokemon">Weight</string>
+    <string name="male_pokemon">Male</string>
+    <string name="female_pokemon">Female</string>
+    <string name="hp_pokemon">hp</string>
+    <string name="attack_pokemon">attack</string>
+    <string name="defense_pokemon">defense</string>
+    <string name="sp_attack_pokemon">sp.attack</string>
+    <string name="sp_defense_pokemon">sp.defense</string>
+    <string name="speed_pokemon">speed</string>
+    <string name="favorites_empty">Favorites empty</string>
+</resources>

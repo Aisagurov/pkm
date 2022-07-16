@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hp_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/hpTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="20"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/hpProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="20" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/attack_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/attackTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="30"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/attackProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defense_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/defenseTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="20"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/defenseProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="20" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sp_attack_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/specialAttackTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="30"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/specialAttackProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sp_defense_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/specialDefenseTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="30"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/specialDefenseProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/speed_pokemon"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/speedTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="30"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <ProgressBar
+            android:id="@+id/speedProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="3.3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="30" />
+    </LinearLayout>
+</LinearLayout>
